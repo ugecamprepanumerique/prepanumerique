@@ -1,0 +1,9 @@
+li{
+    color: aqua;
+    list-style-type: none;
+    padding-left: 10px;
+}
+li::before{
+    content: "&";
+    padding-right: 5px;
+}
