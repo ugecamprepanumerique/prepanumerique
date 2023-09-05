@@ -1,0 +1,28 @@
+
+.container {
+    display: grid;
+    flex-wrap: wrap;
+  
+  }
+  
+  .project {
+  justify-content: center;
+    width: 50%;
+     }
+  
+  .image {
+    margin: center;
+    padding: auto;
+  }
+  p{
+      color: blue;
+  }
+  .project{
+    column-count: 1;
+}
+.text{
+text-align: center;
+justify-content: center;
+column-count: auto;
+}
+  

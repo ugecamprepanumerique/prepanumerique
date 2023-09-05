@@ -1,0 +1,8 @@
+li{
+list-style-type: none;
+padding-left: 10px;
+}li::before {
+    
+    content: "#";
+    padding-right: 15px;
+}

@@ -1,0 +1,15 @@
+body{
+background-color: blue;
+background-position: center;
+background-size: cover;
+background-position-x: center;
+opacity: 0,1;}
+p,
+header,
+footer{
+color: white;
+}
+h1,
+h2{
+    color: white;
+}
