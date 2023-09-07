@@ -1,9 +1,12 @@
 .colone1{
     background-color: blue;
     float: left;
+    left: 45%; 
+    vertical-align: top;
 }
 .colone2{
     background-color:  green;
     float: left;
+    left: 50%; 
+    vertical-align: top;
 }
-

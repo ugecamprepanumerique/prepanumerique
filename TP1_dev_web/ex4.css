@@ -1,0 +1,10 @@
+div:hover{
+    background-color: antiquewhite;
+    color: rgb(99, 99, 99);
+    display: inline-block ;
+    width: 300px; 
+}
+h1{
+    border: solid crimson ;
+    display: inline-block ;
+}
