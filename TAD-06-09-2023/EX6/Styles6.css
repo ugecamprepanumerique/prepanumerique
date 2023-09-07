@@ -1,0 +1,13 @@
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  border: 1px solid rgb(231, 17, 17);
+  
+}
+
+p {
+  color: rgb(14, 14, 233);
+}
+

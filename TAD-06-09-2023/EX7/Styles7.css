@@ -1,0 +1,14 @@
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    
+    
+  }
+  div{
+    margin-left: 300px;
+  }
+  p {
+    color: rgb(14, 14, 233);
+  }
