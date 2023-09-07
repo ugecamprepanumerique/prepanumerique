@@ -2,27 +2,20 @@
 .container {
     display: grid;
     flex-wrap: wrap;
-  
+    columns: 2;
   }
   
   .project {
-  justify-content: center;
-    width: 50%;
+  justify-content: right;
+  
      }
   
-  .image {
-    margin: center;
-    padding: auto;
-  }
+ 
   p{
       color: blue;
   }
-  .project{
-    column-count: 1;
-}
 .text{
 text-align: center;
 justify-content: center;
-column-count: auto;
 }
   
