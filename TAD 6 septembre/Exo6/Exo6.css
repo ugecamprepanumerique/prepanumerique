@@ -1,0 +1,14 @@
+.texte{
+margin: auto;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+h1,
+h2{
+    color: #3402ea; 
+}
+body{
+    background-color:rgb(226, 226, 226);
+    opacity: 0,1;
+}

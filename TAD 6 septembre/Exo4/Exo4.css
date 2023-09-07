@@ -1,0 +1,10 @@
+.box{
+background-color: blue;
+border: 18px solid rgba(0, 2, 13, 0.923);
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+

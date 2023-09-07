@@ -1,0 +1,6 @@
+.box{
+margin-left: 50px;
+height: 200px;
+width: 200px; /*changer en rectangle mettre a 300*/
+background-color: blue;
+}
