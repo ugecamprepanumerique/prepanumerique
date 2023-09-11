@@ -5,6 +5,8 @@ h2
     size-adjust: center;
    text-align: center;
    padding: center;
+   margin-right: 20%;
+   margin-left: 20%;
  }
 h3{
     color: red;
@@ -76,7 +78,9 @@ body{
         padding: 5px;
         margin: auto;
         text-align: center;
-        background-color: gray;
+        background-color: rgb(255, 255, 255);
+        margin-right: 20%;
+   margin-left: 20%;
        }
        .bigger{
         font-size:x-large;
@@ -88,9 +92,10 @@ body{
         border: 18px solid rgba(5, 47, 255, 0.923);
         border-radius:  8px ;
         box-shadow: 6xp 6px 0px rgb(254, 3, 3);
-        background-color: gray;
+        background-color: rgb(255, 255, 255);
         padding: 20px;
         margin: auto;
+       
     }
     .demo-border3{
         
@@ -99,9 +104,10 @@ body{
         border: 18px solid rgba(5, 47, 255, 0.923);
         border-radius:  8px ;
         box-shadow: 6xp 6px 0px rgb(254, 3, 3);
-        background-color: gray;
+        background-color: rgb(255, 255, 255);
         padding: 20px;
         margin: auto;
+       
     }
     img:hover { 
         opacity: 0.8;
