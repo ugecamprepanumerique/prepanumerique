@@ -1,0 +1,82 @@
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    width: 50%;
+    text-align: center;
+    
+}h1,
+h2,
+
+.Profil{
+    text-align: center;
+color:red;
+align-items: center;
+justify-content: center;
+border: solid 10px;
+margin-left: 20%;
+margin-right: 20%;
+}
+.IMGprofil{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.Description{
+    text-align: justify;
+margin-top: -5px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block; 
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: blue;
+    border-bottom: 1px solid gold;
+}
+
+.grille-photos{
+display: flex;
+grid-template-columns:1;
+ justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
+}
+body{
+background-color: beige;
+}
+p{
+    color: blue;
+    text-align: center;
+}
+.reseaux-sociaux{
+    display: flex;
+justify-content: center;
+   
+  }
+
+  .reseaux-sociaux a {
+    color: #333;
+    font-size: 30px;
+    margin: 10px;
+     border-bottom: 1px solid gold;
+  }
