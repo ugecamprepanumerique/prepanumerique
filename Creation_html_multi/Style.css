@@ -1,0 +1,37 @@
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+nav a{
+    display: block; 
+    text-decoration: none;
+    color: rgb(34, 0, 255);
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+h1
+{ border: 5px solid blue ;
+    color: blue;
+    text-align: center;
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+h2{
+    text-align: center;
+    color: blue;
+}
+p{
+    text-align: center;
+    margin: auto;
+    padding: 12px;
+    color: rgb(0, 193, 252);
+    margin-top: 10%;
+}
+body{
+    background-color: beige;
+}

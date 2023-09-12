@@ -10,6 +10,7 @@ h2
  }
 h3{
     color: red;
+    margin-top: 3%;
 }
 .ma-classe{
     color: rgb(0, 0, 0);
@@ -37,6 +38,7 @@ ol {
 }
 .ma-classe6{
     color: rgb(0, 0, 0);
+    margin-top: -20px;
 }
 .ma-classe7{
     color: rgb(0, 0, 0);
