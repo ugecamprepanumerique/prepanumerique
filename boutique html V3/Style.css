@@ -1,0 +1,79 @@
+
+.nav {
+    display: flex;
+    gap: 10px;
+}
+.nav a {
+    text-decoration: none;
+    color: #333333;
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav a:hover {
+    background-color: #eeeeee;
+}
+.nav a.active {
+    background-color: #cccccc;
+}
+.conteneur{
+    display: flex;
+    flex-direction: row;
+ margin-right: 25%;
+   margin-left: 25%;
+  margin-bottom: 5%; 
+margin-top: 5%;
+justify-content: space-between;
+}
+
+.prix{
+    font-size: x-large;
+    color: red;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: rgb(40, 2, 255);
+}
+h2{
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
+body{
+    background-color: rgb(255, 255, 228);
+    
+}
+h3{
+    color: rgb(0, 157, 255);
+    text-align: center;
+    font-size: xx-large;
+}
+h4{
+    color: rgb(55, 0, 255);
+    margin-left: 10%;
+    font-size: xx-large;
+}
+p{
+    text-align: justify;
+}
+.conteneur2{
+    display: flex;
+    flex-direction: row;
+   margin-right: 25%;
+   margin-left: 25%;
+  margin-bottom: 5%; 
+margin-top: 5%;
+justify-content:space-between;
+}
+.Menu{
+    width: 80%;
+    margin: 0 auto;
+}
+.conteneur3{
+    display: flex;
+    flex-direction: row;
+   margin-right: 25%;
+   margin-left: 25%;
+  margin-bottom: 5%; 
+margin-top: 5%;
+justify-content:space-between;
+}
