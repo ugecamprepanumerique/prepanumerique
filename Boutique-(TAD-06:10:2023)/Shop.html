@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akim's Watches</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="Styles.css">
+  </head>
+  <body>
+    <header>
+      
+      <div class="container">
+      
+      
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Akim's Watches</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="Shop.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Produits.html">Produits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Panier.html">Panier</a>
+          </li>
+        </ul>
+      
+      </div>
+    </nav>
+  </div>
+
+  </header>
+  
+    <div class="container">
+      <div class="row">
+       
+        <div class="col-md-4">
+          <div class="card">
+            <div class="alert alert-danger" role="alert">
+              Promotion exceptionnelle!
+              </div>
+            <div id="carousel1" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel1" data-slide-to="1"></li>
+                <li data-target="#carousel1" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="Pilot.jpg" class="d-block w-75" alt="Photo 1">
+                </div>
+                <div class="carousel-item">
+                  <img src="bigpilot2.jpg" class="d-block w-75" alt="Photo 2">
+                </div>
+                <div class="carousel-item">
+                  <img src="bigpilot3.jpg" class="d-block w-75" alt="Photo 3">
+                  
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="bigpilot3.jpg" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">IWC
+                Big Pilot’s</h5>
+              <p class="card-text"><strong>CARACTÉRISTIQUES</strong><br>
+                Petite seconde avec dispositif d’arrêt
+                Verre saphir bombé, antireflet sur les deux faces
+                Verre saphir résistant à la dépressurisation
+                Affichage de la date et du jour de la semaine
+                Fonction stop heure, minute et seconde
+                Limités à 125 exemplaires.<br>
+                <br><strong>Prix: 13949€</strong></p>
+              
+              <form action="panier.html" method="post">
+                <input type="hidden" name="produit" value="nom_du_produit">
+                <input type="hidden" name="quantite" value="1">
+                <button type="submit">Ajouter au panier</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Ajouter les autres produits ici -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="alert alert-danger" role="alert">
+                  Promotion exceptionnelle!
+                  </div>
+
+                <div id="carousel2" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel2" data-slide-to="1"></li>
+                    <li data-target="#carousel2" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carouse2-item active">
+                      <img src="Panerai1.jpg" class="d-block w-75" alt="Photo 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="panerai2.jpg" class="d-block w-75" alt="Photo 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="panerai3.jpg" class="d-block w-75" alt="Photo 3">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Panerai
+                    Luminor 1950</h5>
+                  <p class="card-text">LUMINOR 1950 : ROBUSTESSE ET INNOVATION
+                    Le boîtier Luminor 1950 représente une nouvelle étape de l'évolution des boîtiers Panerai. Cette innovation consiste en un dispositif protège-couronne à levier qui garantit l'étanchéité de la montre et la protège contre les chocs et les manipulations involontaires, y compris dans des conditions extrêmes. Les Luminor 1950 se distinguent également par leur boîtier en forme de coussin et leur lunette plate élargie. Plus qu'un signe distinctif, le dispositif protège-couronne est devenu un véritable symbole d'Officine Panerai</p><br><p><strong>Prix: 8450$</strong></p>
+                  <form action="panier.html" method="post">
+                    <input type="hidden" name="produit" value="nom_du_produit">
+                    <input type="hidden" name="quantite" value="1">
+                    <button type="submit">Ajouter au panier</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div id="carousel3" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel3" data-slide-to="1"></li>
+                    <li data-target="#carousel3" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="Audemars1.jpg" class="d-block w-75" alt="Photo 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Audemars2.jpg" class="d-block w-75" alt="Photo 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Audemars3.jpg" class="d-block w-75" alt="Photo 3">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Audemars Piguet
+                    Royal Oak Offshore</h5>
+                  <p class="card-text">Cette Royal Oak Offshore tout titane de 43 mm arbore un cadran bleu "Méga Tapisserie" aux finitions haut de gamme ainsi que le système de bracelets interchangeables de la Manufacture et le dernier chronographe flyback intégré.<br>
+                  <p><strong>Prix: 26900€</strong></p>
+                  <form action="panier.html" method="post">
+                    <input type="hidden" name="produit" value="nom_du_produit">
+                    <input type="hidden" name="quantite" value="1">
+                    <button type="submit">Ajouter au panier</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div id="carousel4" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel4" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel4" data-slide-to="1"></li>
+                    <li data-target="#carousel4" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="Hublot.jpg" class="d-block w-75" alt="Photo 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Hublot2.jpg" class="d-block w-75" alt="Photo 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Hublot3.jpeg" class="d-block w-75" alt="Photo 3">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel4" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Hublot
+                    Big Bang</h5>
+                  <p class="card-text">Modèle phare de Hublot, la Big Bang a révolutionné l’univers horloger par son design hors du commun. Icône contemporaine, elle ne cesse de se réinventer – en laissant place à toutes les audaces techniques et esthétiques. Plus qu’une montre : un état d’esprit.<br>
+                    <br><strong>Prix: 15090€</strong></p>
+                  <form action="panier.html" method="post">
+                    <input type="hidden" name="produit" value="nom_du_produit">
+                    <input type="hidden" name="quantite" value="1">
+                    <button type="submit">Ajouter au panier</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div id="carousel5" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel5" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel5" data-slide-to="1"></li>
+                    <li data-target="#carousel5" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="Rolex.jpg" class="d-block w-75" alt="Photo 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Rolex2.jpg" class="d-block w-75" alt="Photo 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Rolex3.jpg" class="d-block w-75" alt="Photo 3">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel5" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Rolex 
+                    Yacht-Master</h5>
+                  <p class="card-text">La montre du grand large
+                    La Yacht‑Master est reconnaissable à sa lunette tournante bidirectionnelle graduée 60 minutes. Fonctionnelle, permettant la lecture d’un intervalle de temps, par exemple un temps de parcours entre deux bouées, cette lunette caractéristique participe pleinement à l’identité unique de la montre.<br>
+                    <br><strong>Prix: 4890€</strong></p>
+                  <form action="panier.html" method="post">
+                    <input type="hidden" name="produit" value="nom_du_produit">
+                    <input type="hidden" name="quantite" value="1">
+                    <button type="submit">Ajouter au panier</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div id="carousel1" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel6" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel6" data-slide-to="1"></li>
+                    <li data-target="#carousel6" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="Corum.jpg" class="d-block w-75" alt="Photo 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Corum2.jpg" class="d-block w-75" alt="Photo 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="Corum3.jpg" class="d-block w-75" alt="Photo 3">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel6" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel6" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Corum
+                    Challenge 44</h5>
+                  <p class="card-text">Noblesse et nature se marient
+                    Dans cette nouvelle création, l´argent et le caoutchouc s´unissent par fusion. La couronne, à double crantage et à vis, est enrobée d´une prolongation du boîtier en caoutchouc vulcanisé. Tout comme le poussoir à 8h, qui commande l´aiguille du temps intermédiaire, en livrée bleue. Les deux poussoirs à bascule (à 2h et 4h), dont les charnières s´engagent dans cette même protection en caoutchouc, sont parfaitement centrés sur les cornes, soulignant la symétrie de toute la pièce.
+                    Le bracelet, qui s´intègre dans le boîtier, est constitué de maillons eux aussi en or rouge et caoutchouc.
+                    La boucle, qui se compose d´un triple déployant à fermeture mécanique, a été dessinée et produite en exclusivité pour CORUM.<br>
+                    <br><strong>Prix: 3590€</strong></p>
+                  <form action="panier.html" method="post">
+                    <input type="hidden" name="produit" value="nom_du_produit">
+                    <input type="hidden" name="quantite" value="1">
+                    <button type="submit">Ajouter au panier</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+      </div>
+    </div>
+    <footer class="bg-light text-center text-lg-start">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Akim's Watches</h5>
+            <p>Akim's Watches est une boutique de montres de luxe</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Liens utiles</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="Shop.html" class="text-dark">Accueil</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Produits</a>
+              </li>
+              <li>
+                <a href="Panier.html" class="text-dark">Panier</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contact</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-dark">Adresse: 5 rue des Noyers <br>93300 Aubervilliers</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Téléphone:0606060606</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">@:Akimswatches@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"></div>
+        © 2023 Akim's Watches
+      </div>
+    </footer>
+ 
+  </body>
+</html>
