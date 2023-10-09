@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+   <link rel="stylesheet" href="Style.css">
+   <script src="https://cdn.tiny.cloud/1/kcghtyccmak7cm08as9p4up4ipamsdnzmssfumpogjfdsb8o/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <title>Blog</title>
+</head>
+<body>
+<header>
+<h1>Page Administration</h1>
+
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="Blog.html">Accueil</a>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link active"href="Articles.html">Détails Articles</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="Administration.html">Administration</a>
+            </ul>
+          </li>
+      </div>
+    </div>
+  </nav>
+</ul><script>
+    tinymce.init({
+      selector: 'textarea',
+      plugins: 'ai tinycomments mentions anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed permanentpen footnotes advtemplate advtable advcode editimage tableofcontents mergetags powerpaste tinymcespellchecker autocorrect a11ychecker typography inlinecss',
+      toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | align lineheight | tinycomments | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+      tinycomments_mode: 'embedded',
+      tinycomments_author: 'Author name',
+      mergetags_list: [
+        { value: 'First.Name', title: 'First Name' },
+        { value: 'Email', title: 'Email' },
+      ],
+      ai_request: (request, respondWith) => respondWith.string(() => Promise.reject("See docs to implement AI Assistant")),
+    });
+  </script>
+</header>
+  <textarea>
+    <li> <a id="#"></a>
+        <h2> Titre</h2>
+        Image
+        <p><i>Date</i></p>
+        <p>
+            Texte
+            <p>
+            <b>Auteur</b></p>
+            
+            
+        </li>
+        
+  </textarea><button type="submit">Publier</button>
+<footer>
+ 
+</footer>
+</body>
+</html>

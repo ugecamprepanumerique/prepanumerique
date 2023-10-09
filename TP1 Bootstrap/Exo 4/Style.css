@@ -1,0 +1,15 @@
+header{
+    background-color: aqua;
+    color: aqua;
+}
+footer{
+    background-color: rgb(0, 255, 51);
+}
+ 
+body{
+
+font-family: 'Poppins', sans-serif;
+}
+.row{
+    background-image:url("chat\ noir\ et\ blanc.jpeg"),
+url("chat\ noir\ et\ blanc.jpeg");}

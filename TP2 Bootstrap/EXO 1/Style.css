@@ -1,0 +1,11 @@
+html body
+{
+    background-color: beige;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+
+}
+header{
+    color: rgb(4, 0, 255);
+    text-align: center;
+}
