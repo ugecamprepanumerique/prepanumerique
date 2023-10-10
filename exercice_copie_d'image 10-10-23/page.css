@@ -1,0 +1,30 @@
+.col-4{
+    margin-top: 20px;
+}
+.card{
+    height: 320px;
+}
+.le_dessous_du_header{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    padding-left: 450px;
+    padding-right: 450px;
+    background-color: white;
+}
+body{
+    background-color: rgb(238, 238, 238);
+}
+span{
+    margin-left: 85px;
+    font-size: small;
+}
+.nav-band2{
+    margin-right: 400px;
+}
+.navbar-brand{
+    margin-left: 300px;
+}
+svg{
+    height: 30px;
+    width: 30px;
+}

@@ -1,0 +1,10 @@
+footer{
+    background-color: rgba(158, 158, 158, 0.79);
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.row{
+    background-image: url("img/03-White-Paper-Different-Texture-Types-A4-Colonnade.webp"),
+  url("img/03-White-Paper-Different-Texture-Types-A4-Colonnade.webp");
+}

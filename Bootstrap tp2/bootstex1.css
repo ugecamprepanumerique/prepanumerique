@@ -1,0 +1,18 @@
+img{
+    float: left;
+    margin-left: -40px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: solid 3px;
+    border-color: #ff66c9;
+}
+p ,.mes_qualitées{
+    margin-top: 40px;
+    margin-left: 210px;
+    color: #ff66c9;
+}
+body{
+    font-family: 'Dancing Script';
+    font-size: larger;
+    background-color: rgba(255, 226, 252, 0.883);
+}
