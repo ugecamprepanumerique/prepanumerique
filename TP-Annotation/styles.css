@@ -1,0 +1,17 @@
+.center-text {
+    text-align: center;
+    margin-top: 2cm;
+}
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-group {
+    text-align: center;
+}
+.card-body {
+   color: darkcyan;
+   font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
