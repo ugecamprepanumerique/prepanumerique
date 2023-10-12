@@ -1,0 +1,19 @@
+
+.container-titre{
+    margin-right: 65%;
+}
+.container-dropend{
+background-color: blue;
+margin-right: 90%;
+}
+.card-img{
+    margin-right: auto;
+}
+.container-dashboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h3{
+    color: white;
+}
